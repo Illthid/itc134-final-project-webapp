@@ -1,0 +1,19 @@
+body {
+    
+    background-color: coral;
+}
+
+
+#display {
+
+background-color: chartreuse;
+border-radius: 50px;
+width: 300px;
+text-align: center;
+}
+
+button{
+            
+            border-radius: 100px;
+            width: 15%;
+        }
