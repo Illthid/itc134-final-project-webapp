@@ -11,21 +11,50 @@
     
     
     <body>
-       <div>
-          <h1 id="display"> </h1>
-        <h1>Click any of these two buttons</h1>
+        <header>
+            <img class="header" src="mern.png" alt="mern-logo">
+            <h1 class="header">Hello World Application <br/> on <span style="color: #399A46" >M</span> <span style="color: #CC7B70">E</span> <span style="color: #6FD0F0">R</span> <span style="color: #98BE50">N</span> Stack</h1>
+        </header>
+        
+  
+       <section class="application">
+           <h2>Step 1</h2>
+            <form name="name" action="post">
+                <p>Please input your name here: </p>
+            <input type="text" name="name" id="name" value="">
+                <input type="reset" value="Reset">
+           </form>
+           
+           <h2>Step 2</h2>
+           <p>Click any of these two buttons</p>
+           
+           <h2>The Outcome</h2>
+           <div id="display">
+               
+          <h1> </h1>
+           </div>
+           
 
         <button onclick="myFunction1()"> <h2>Hello World</h2></button>
         <button onclick="myFunction2()"> <h2> Goodbye World </h2></button>
            
-        </div>
+
+        </section>
 <script>
+    
+  
         function myFunction1(){ 
-        document.getElementById("display").innerHTML="Hello World";
+        var n = document.getElementById("name").value;
+        document.getElementById("display").innerHTML="Hello "+n+",<br/> Welcome!";
         }
+    
+    
         function myFunction2(){
-        document.getElementById("display").innerHTML="Goodbye World";
+            var n = document.getElementById("name").value;
+            document.getElementById("display").innerHTML="Good bye " +n+",<br/> see you again soon!";
         }
+    
+        
         
   </script>
         
@@ -33,4 +62,17 @@
         
          </body>
     </html>
+
+    
+
+        
+        
+        
+        
+        
+        
+
+
+
+
 
