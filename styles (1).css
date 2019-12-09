@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+
+}
+
+
+header{
+    margin: 0 auto;
+    width: 50%;
+    overflow: hidden;
+}
+
+img.header{
+    float:left;
+    width: 20%;
+}
+
+h1.header{
+    float: right;
+    width: 70%;
+    text-align: center;
+}
+
+#display {
+    background-color:chartreuse;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button{
+    border-radius: 3em;
+    width: 25%;
+}
+
+
+section.application{
+    background:#C0BECD;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.welcome {
+    text-align: center;
+    
+}
+
+label{
+    display: block;
+}
+
+p{
+    font-size: 1.15em;
+}
